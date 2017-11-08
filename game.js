@@ -8,15 +8,19 @@ var arraychooseWord = chooseWord.split("");
 
 var arrayOfBlanks = arraychooseWord.map(a=>'_');
 
-
-// replaces guesses with letters
-// Stuck on input for guess
+document.onkeyup = function(event) {
+var userGuess = event.key;
 
 var startValue = 0;
 
-while (chooseWord.indexOf(guess, startValue) !== -1) {
-	startValue = chooseWord.indexOf(guess, startValue) + 1;
+while (chooseWord.indexOf(userguess, startValue) !== -1) {
+	startValue = chooseWord.indexOf(userguess, startValue) + 1;
 }
+
+
+
+}
+
 
 
 
