@@ -19,6 +19,16 @@ h2 {
 	font-size: 25px;
 }
 
+span {
+	font-family: 'Oswald', sans-serif;
+	color: #C0C0C0;
+}
+
+#displayWord {
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+
 #logo {
 	width: 200px;
 	height: 200px;
