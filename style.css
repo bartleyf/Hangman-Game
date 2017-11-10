@@ -1,4 +1,25 @@
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background: url("images/Jupiter.jpg");
+  background: black;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold; 
+	font-style: italic;
+	color: #C0C0C0;
+	font-size: 75px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold; 
+	font-style: italic;
+	color: #C0C0C0;
+	font-size: 25px;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
 }

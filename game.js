@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.onload = function () {
 	// arrays of words and letters
 	var words = ['enterprise','kirk','data','worf','torres','picard','spock','starfleet','scotty'];
@@ -8,9 +9,6 @@ window.onload = function () {
 var 
 
 
-
-
-
 	var chooseWord = words[Math.floor(Math.random() * words.length)];
 
 	var arraychooseWord = chooseWord.split("");
@@ -18,15 +16,13 @@ var
 	var arrayOfBlanks = arraychooseWord.map(a=>'_');
 
 document.onkeyup = function(event) {
-var userGuess = event.key;
+    var userGuess = event.key;
 
-var startValue = 0;
+    var startValue = 0;
 
-while (chooseWord.indexOf(userguess, startValue) !== -1) {
-	startValue = chooseWord.indexOf(userguess, startValue) + 1;
-}
-
-
+    while (chooseWord.indexOf(userGuess, startValue) !== -1) {
+        startValue = chooseWord.indexOf(userGuess, startValue) + 1;
+    }
 
 }
 }
