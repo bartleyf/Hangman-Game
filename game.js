@@ -1,12 +1,21 @@
-var words = ['enterprise','kirk','data','worf','torres','picard','spock','starfleet','scotty'];
+window.onload = function () {
+	// arrays of words and letters
+	var words = ['enterprise','kirk','data','worf','torres','picard','spock','starfleet','scotty'];
 
-var alphabet = ['a','b','c','d','e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+	var alphabet = ['a','b','c','d','e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
-var chooseWord = words[Math.floor(Math.random() * words.length)];
+// get by ID var for html input
+var 
 
-var arraychooseWord = chooseWord.split("");
 
-var arrayOfBlanks = arraychooseWord.map(a=>'_');
+
+
+
+	var chooseWord = words[Math.floor(Math.random() * words.length)];
+
+	var arraychooseWord = chooseWord.split("");
+
+	var arrayOfBlanks = arraychooseWord.map(a=>'_');
 
 document.onkeyup = function(event) {
 var userGuess = event.key;
@@ -20,6 +29,8 @@ while (chooseWord.indexOf(userguess, startValue) !== -1) {
 
 
 }
+}
+
 
 
 
