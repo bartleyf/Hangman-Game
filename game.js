@@ -38,6 +38,7 @@ function changeState(userGuess) {
     for (var i = 0; i < arrayChooseWord.length; i++) {
         if (userGuess === arrayChooseWord[i]) {
             currentStateArray[i] = userGuess;
+            if // no underscores in currentStateArray {alert "you won"}
         }
     }
     drawBoard();
