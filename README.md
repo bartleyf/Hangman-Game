@@ -8,3 +8,4 @@ Built using:
 * CSS/Bootstrap
 * vanilla Javascript
 
+[Click for Deployed Game](https://bartleyf.github.io/Hangman-Game/)
